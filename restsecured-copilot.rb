@@ -17,6 +17,7 @@ class RestsecuredCopilot < Formula
   resource "transitions" do
     url "https://github.com/tyarkoni/transitions/archive/0.4.0.tar.gz"
     sha1 "065611458c52e58fd40cc35f57167972fc627035"
+  end
 
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"vendor/lib/python2.7/site-packages"
