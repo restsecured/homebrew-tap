@@ -16,7 +16,7 @@ class RestsecuredCopilot < Formula
   end
   resource "transitions" do
     url "https://github.com/tyarkoni/transitions/archive/0.4.0.tar.gz"
-    sha1 "065611458c52e58fd40cc35f57167972fc627035"
+    sha1 "fe3f73d43048f9aa54218263ac667d9eec031743"
   end
 
   def install
