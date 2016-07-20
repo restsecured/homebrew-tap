@@ -4,9 +4,9 @@
 class RestsecuredCopilot < Formula
   desc "Rest Secured Copilot - Security Consultant at your service"
   homepage "https://www.restsecured.xyz"
-  url "https://github.com/stankiewicz/restsecured-copilot/archive/0.1.0.tar.gz"
+  url "https://github.com/stankiewicz/restsecured-copilot/archive/0.2.0.tar.gz"
   version "0.1.0"
-  sha256 "19589b020e7464c4c32d92ba5faa06fecf50dd15b318c81a23f55667c824968b"
+  sha256 "f76abd0704fb9f84d79b8b945d9467184bf3410a29df100d87b42a44161b0419"
 
   # depends_on "cmake" => :build
   depends_on :python
